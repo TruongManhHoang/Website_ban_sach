@@ -1,0 +1,58 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>KhachhangController</servlet-name>
+  	<display-name>KhachhangController</display-name>
+  	<description></description>
+<servlet-class>Controller.KhachhangController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>quantrivienController</servlet-name>
+  	<display-name>quantrivienController</display-name>
+  	<description></description>
+  	<servlet-class>Controller.quantrivienController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>sachController</servlet-name>
+  	<display-name>sachController</display-name>
+  	<description></description>
+  	<servlet-class>Controller.sachController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>tacGiaController</servlet-name>
+  	<display-name>tacGiaController</display-name>
+  	<description></description>
+  	<servlet-class>Controller.tacGiaController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>thayDoiAnh</servlet-name>
+  	<display-name>thayDoiAnh</display-name>
+  	<description></description>
+  	<servlet-class>Controller.thayDoiAnh</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>KhachhangController</servlet-name>
+  	<url-pattern>/KhachhangController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>quantrivienController</servlet-name>
+  	<url-pattern>/quantrivienController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>sachController</servlet-name>
+  	<url-pattern>/sachController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>tacGiaController</servlet-name>
+  	<url-pattern>/tacGiaController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>thayDoiAnh</servlet-name>
+  	<url-pattern>/thayDoiAnh</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
